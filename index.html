@@ -16,19 +16,30 @@
       <main>
 
           <div class="bg-warning">
-            <nav class="navbar navbar-light container">
-              <a class="navbar-brand"><img src="images/download (8).jfif" alt="" width="60px" height="30px"> <span class="text-light"> Hub</span></a>
-              <form class="form-inline">
-                <p class="text-light text-bold">Home</p>
-                <p class="text-light ml-4 mr-4 text-bold">About Us</p>
-              </form>
+            <nav class="navbar navbar-expand-lg container">
+              <a class="navbar-brand" href="#"><img src="images/download (8).jfif" alt="" width="60px" height="30px"> <span class="text-light"> Hub</span></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item mr-4">
+                    <a class="nav-link text-light" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-light" href="#">About Us</a>
+                    </li>
+                </ul>
+              
+              </div>
             </nav>
           </div>
 
           <div class="container">
             <div class="hero-section">
               <h1 class="text-bold lorem">
-                What is Lorem Ipsum
+                What is Lorem Ipsum?
               </h1>
               <img src="images/download (8).jfif" alt="" width="100%" height="300rem" class="img1">
               <a href="http://www.google.com" class="text-muted">Visit google</a>
@@ -87,20 +98,26 @@
 
             <div class="space">
               <form action="">
-                <div class="d-lg-flex">
-                <button class="btn btn-outline-dark"><i class="fa fa-filter" aria-hidden="true"> Filter</i></button>
-                  <div class="input-field ml-2">
-
-                    <i class="fa fa-search" aria-hidden="true"></i>
-                    <input type="search" placeholder="Search" name="" id="">
-                  </div>
-
-                  <div class="ml-auto">
-                      <button class="btn btn-primary">PAY DUES</button>
-                  </div>
-              </div>
-                <table class="table">
+                
+                <table class="table table-responsive-md">
+              
                   <thead>
+                    <tr>
+                      <th colspan="6">
+                        <div class="d-lg-flex">
+                          <button class="btn btn-outline-dark"><i class="fa fa-filter" aria-hidden="true"> Filter</i></button>
+                            <div class="input-field ml-2 pt-2">
+          
+                              <i class="fa fa-search" aria-hidden="true"></i>
+                              <input type="search" placeholder="Search" name="" id="">
+                            </div>
+          
+                            <div class="ml-auto">
+                                <button class="btn btn-primary">PAY DUES</button>
+                            </div>
+                        </div>
+                      </th>
+                    </tr>
                     <tr>
                       <th scope="col"><input type="checkbox" name="" id=""></th>
                       <th scope="col">NAME</th>
@@ -126,8 +143,8 @@
                         <p class="small">example@gmail.com</p>
                       </td>
                       <td>
-                        <h6>$200</h6>
-                        <p class="small">USD</p>
+                        <h6 class="mr-auto">$200</h6>
+                        <p class="small mr-auto">USD</p>
                       </td>
                       <td><i class="fa fa-ellipsis-v" aria-hidden="true"></i></td>
                     </tr>
@@ -146,8 +163,8 @@
                         <p v>example@gmail.com</p>
                       </td>
                       <td>
-                        <h6>$200</h6>
-                        <p class="small">USD</p>
+                        <h6 class="mr-auto">$200</h6>
+                        <p class="small mr-auto">USD</p>
                       </td>
                       <td><i class="fa fa-ellipsis-v" aria-hidden="true"></i></td>
                     </tr>
@@ -159,17 +176,31 @@
                       </td>
                       <td>
                         <h6>. Active</h6>
-                        <p class="small">example@gmail.com</p>
+                        <p class="small pt-0">example@gmail.com</p>
                       </td>
                       <td>
                         <h6>. Paid</h6>
                         <p class="small">example@gmail.com</p>
                       </td>
                       <td>
-                        <h6>$200</h6>
-                        <p class="small">USD</p>
+                        <h6 class="mr-auto">$200</h6>
+                        <p class="small mr-auto">USD</p>
                       </td>
                       <td><i class="fa fa-ellipsis-v" aria-hidden="true"></i></td>
+                    </tr>
+                    <tr>
+                      <td colspan="6">
+                        <div class="">
+                          <div class="tab">
+                            <p>
+                              Rows per page: 10 <i class="fa fa-caret-down mr-5" aria-hidden="true"></i>                            
+                              <span class="mr-4">1-10 of 276</span>                        
+                              <i class="fa fa-caret-left mr-4" aria-hidden="true"></i>
+                              <i class="fa fa-caret-right" aria-hidden="true"></i>
+                            </p>
+                          </div>
+                        </div>
+                      </td>
                     </tr>
                   </tbody>
                 </table>
